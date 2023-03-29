@@ -1,0 +1,115 @@
+header {
+    .hero {
+        font-size: 15px;
+        color: aliceblue;
+        letter-spacing: 2px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+        font-size: 13px;
+        color: aliceblue;
+        letter-spacing: 2px;
+        font-family: 'Roboto', sans-serif;
+        opacity: 0.9;
+    }
+
+  
+
+}
+
+main {
+    .section_start {
+        h2 {
+            font-size: xxx-large;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(246, 246, 247);
+
+        }
+
+        h3 {
+            font-size: x-large;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(253, 253, 253);
+        }
+
+        button {
+            font-size: medium;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(253, 253, 253);
+        }
+    }
+
+    .section_end {
+        .section_end_one {
+            h4 {
+                font-size: xx-large;
+                font-weight: 400;
+                font-family: 'Fira Sans', sans-serif;
+            }
+
+            p {
+                font-size: 15px;
+                margin-top: 10px;
+                font-family: 'Fira Sans', sans-serif;
+
+            }
+        }
+
+        .section_end_two {
+            h4 {
+                font-size: xx-large;
+                font-weight: 400;
+                font-family: 'Fira Sans', sans-serif;
+            }
+
+            p {
+                font-size: 15px;
+                margin-top: 10px;
+                font-family: 'Fira Sans', sans-serif;
+            }
+
+            .section_end_three {
+                h4 {
+                    font-size: xx-large;
+                    font-weight: 400;
+                    font-family: 'Fira Sans', sans-serif;
+                }
+
+                p {
+                    font-family: 'Fira Sans', sans-serif;
+
+                    font-size: 15px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+footer{
+    color: aliceblue;
+    font-size: small;
+}
+@media screen and (max-width: 600px){
+    main{
+
+        .section_end{
+            
+            
+                h4{
+                    
+                    width: 2;
+                }
+                p{
+                    font-size: larger;
+                    font-weight: 400;
+                    width: 2;
+                }
+            
+        }
+        
+    }
+}
