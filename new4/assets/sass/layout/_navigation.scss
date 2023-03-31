@@ -1,0 +1,57 @@
+.nav_sign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .sign_up {
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 40px;
+
+            li {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                img {
+                    height: 24px;
+                    width: 20.307655334472656px;
+                    left: 1.8466796875px;
+
+                    border-radius: 0px;
+
+                }
+
+
+            }
+        }
+    }
+
+}
+
+.nav_bags {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        
+       li{
+        height: 27px;
+        width: 110px;
+       }
+        
+        
+        
+
+    }
+
+}

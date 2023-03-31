@@ -1,0 +1,29 @@
+header {
+    .nav_sign {
+        form {
+            position: relative;
+
+            .search {
+                width: 504px;
+                height: 48px;
+                padding-left:16px;
+                align-items: center;
+                display: flex;
+                font-size: 16px;
+                background-color: #F7F9FC;
+                border-radius: 8px;
+                border: 0;
+            }
+
+            img {
+                position: absolute;
+                height: 24px;
+                width: 23.170963287353516px;
+                right: 3%;
+                top: 25%;
+                border-radius: 0px;
+
+            }
+        }
+    }
+}
