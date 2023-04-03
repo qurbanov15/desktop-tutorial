@@ -1,0 +1,97 @@
+header {
+    nav {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+
+        h1 {
+            color: #3563E9;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 150%;
+        }
+
+        form {
+            input {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 150%;
+                color: #596780;
+
+            }
+        }
+    }
+}
+
+main {
+    .section_bigcard {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+
+        >div {
+            position: relative;
+
+            .bigcard_about {
+
+                h2 {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 32px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+
+                button {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+
+    .section_selects {
+        font-family: 'Plus Jakarta Sans';
+
+        .pick_up {
+            h3 {
+
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 150%;
+            }
+        }
+
+        .selects {
+            .select {
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 150%;
+                }
+
+                >div {
+                    p {
+
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 200%;
+                    }
+                }
+            }
+        }
+    }
+}

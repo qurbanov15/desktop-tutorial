@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+body{
+    width: 100%;
+}
