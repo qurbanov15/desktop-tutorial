@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(96, 94, 99);
+ }
+ .app{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: auto;
+    form{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        #input{
+            width: 250px;
+            height: 30px;
+            border: 0;
+            border-radius: 10px;
+            
+        }
+        .btn{
+            width: 40px;
+            height: 40px;
+            border: 0;
+            border-radius: 20px;
+            background-color: rgb(186, 202, 202);
+            font-size: x-large;
+            font-weight: 900;
+            color: azure;
+        }
+    }
+    .tasks{
+        border: 2px solid rgb(58, 44, 44);
+        border-radius: 10px;
+        padding: 10px 10px;
+        width: 400px;
+    min-height: 100px;
+    >div{
+        
+      display: flex;
+      align-items: center;
+      padding: 5px 10px;
+      border: 1px solid beige;
+      border-radius: 5px;
+      justify-content: space-between;
+      p{
+        color: azure;
+        font-size: large;
+        font-weight: 500;
+        letter-spacing: 1px;
+
+      }
+     div{
+        background-color: aqua;
+        padding: 5px;
+     }
+    }
+    }
+ }
