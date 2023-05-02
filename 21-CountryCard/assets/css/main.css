@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+}
+body section {
+  display: flex;
+}
+body .card {
+  background-color: rgb(41, 5, 88);
+  padding: 7px;
+  border-radius: 30px 30px 25px 25px;
+}
+body .card .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background-color: rgb(219, 198, 9);
+  border-radius: 20px 20px 0 0;
+}
+body .card .top p {
+  font-size: large;
+  font-weight: 600;
+  padding: 3px 0;
+}
+body .card .top h2 {
+  font-size: x-large;
+  padding: 7px 0;
+}
+body .card .top img {
+  width: 300px;
+  height: 200px;
+}
+body .card .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background-color: rgb(248, 244, 242);
+  border-radius: 0 0 20px 20px;
+}
+body .card .bottom > div {
+  display: flex;
+  background-color: aqua;
+}
+body .card .bottom > div .pug {
+  padding: 3px 5px;
+  width: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: aliceblue;
+  background-color: rgb(99, 87, 141);
+  border-right: 1px solid white;
+}
+body .card .bottom > div .about {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: aliceblue;
+  padding-top: 3px;
+  text-align: center;
+  width: 50%;
+  background-color: blue;
+}
+body .card .bottom .end {
+  border-radius: 0 0 20px 20px;
+  background-color: rgb(94, 83, 136);
+}
+body .card .bottom .end .pug {
+  width: 50%;
+  background-color: rgb(95, 99, 163);
+  padding-bottom: 20px;
+  border-radius: 0 0 0 20px;
+}
+body .card .bottom .end .about {
+  width: 50%;
+  background-color: blue;
+  padding-bottom: 20px;
+  border-radius: 0 0 20px 0;
+}/*# sourceMappingURL=main.css.map */
