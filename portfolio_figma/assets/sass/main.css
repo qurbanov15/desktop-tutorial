@@ -60,7 +60,7 @@ nav .contact {
   line-height: 14px;
   letter-spacing: 0px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 main .modern_studio .left h3 {
@@ -69,7 +69,7 @@ main .modern_studio .left h3 {
   font-weight: 400;
   font-size: 13px;
   line-height: 32px;
-  color: #EF6D58;
+  color: #ef6d58;
 }
 main .modern_studio .left h1 {
   font-family: "Epilogue";
@@ -78,7 +78,7 @@ main .modern_studio .left h1 {
   font-size: 60px;
   line-height: 60px;
   width: 65%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 main .modern_studio .left p {
   font-family: "Epilogue";
@@ -98,14 +98,14 @@ main .modern_studio .left .button button {
   line-height: 14px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 main .modern_studio .left .button p {
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 300;
   font-size: 11px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 main .modern_studio .left .meta div p {
   font-family: "Epilogue";
@@ -122,7 +122,7 @@ main .modern_studio .left .meta div h6 {
   font-weight: 400;
   font-size: 13px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 nav {
@@ -457,6 +457,379 @@ main .experience .top div p {
   font-size: 15px;
   line-height: 32px;
 }
+main .edits {
+  background: #fdf0e9;
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+main .edits .video {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+main .edits .video .left {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+main .edits .video .left div {
+  width: 80%;
+  position: relative;
+}
+main .edits .video .left div #scene {
+  width: 100%;
+}
+main .edits .video .left div #plays {
+  width: 25%;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+main .edits .video .left div #time {
+  width: 8%;
+  left: 4%;
+  bottom: 5%;
+  position: absolute;
+}
+main .edits .video .right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+main .edits .video .right h5 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Text_Dark_Accent */
+  color: #ef6d58;
+}
+main .edits .video .right h3 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 48px;
+  /* or 120% */
+  /* Text_Dark */
+  color: #391400;
+  width: 70%;
+}
+main .edits .video .right p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  width: 80%;
+}
+main .edits .features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .edits .features .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+main .edits .features .left h5 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Text_Dark_Accent */
+  color: #ef6d58;
+}
+main .edits .features .left h3 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 48px;
+  /* or 120% */
+  /* Text_Dark */
+  color: #391400;
+  width: 60%;
+}
+main .edits .features .left p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  width: 70%;
+  color: #0c0b0b;
+}
+main .edits .features .left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main .edits .features .left ul li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .edits .features .left ul li p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+}
+main .edits .features .left ul li img {
+  width: 7%;
+}
+main .edits .features .right {
+  width: 49%;
+  display: flex;
+}
+main .edits .features .right img {
+  width: 80%;
+}
+main .edits .features_about {
+  justify-content: space-between;
+  display: flex;
+}
+main .edits .features_about .left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+main .edits .features_about .left h5 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Text_Dark_Accent */
+  color: #ef6d58;
+}
+main .edits .features_about .left p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  color: #000;
+  letter-spacing: 1px;
+  width: 70%;
+}
+main .edits .features_about .left #read {
+  color: #0c0b0b;
+}
+main .edits .features_about .right {
+  display: flex;
+  position: relative;
+  width: 55%;
+}
+main .edits .features_about .right .prof {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffbfb;
+  gap: 20px;
+  border: 1px solid #f3d1bf;
+  box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+  border-radius: 6px 6px 0px 6px;
+  padding: 50px 0 40px 50px;
+}
+main .edits .features_about .right .prof div {
+  width: 20%;
+  margin-bottom: 15px;
+  position: relative;
+}
+main .edits .features_about .right .prof div #oval {
+  width: 100%;
+}
+main .edits .features_about .right .prof div #shape {
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+main .edits .features_about .right .prof h4 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  /* Text_Dark */
+  color: #391400;
+}
+main .edits .features_about .right .prof p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  letter-spacing: 1px;
+}
+main .edits .features_about .right .access {
+  top: 20%;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 100px 50px 40px 40px;
+  border: 1px solid #f3d1bf;
+  border-radius: 0px 6px 6px 0px;
+  gap: 20px;
+  border-left: 0px;
+}
+main .edits .features_about .right .access h4 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  /* Text_Dark */
+  color: #391400;
+}
+main .edits .features_about .right .access p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  line-height: 26px;
+}
+main .edits .service {
+  display: flex;
+  justify-content: space-between;
+}
+main .edits .service .left {
+  width: 45%;
+}
+main .edits .service .left img {
+  width: 80%;
+}
+main .edits .service .right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+main .edits .service .right h5 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Text_Dark_Accent */
+  color: #ef6d58;
+}
+main .edits .service .right h3 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 48px;
+  /* or 120% */
+  /* Text_Dark */
+  color: #391400;
+  width: 80%;
+}
+main .edits .service .right p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  width: 67%;
+  letter-spacing: 1px;
+}
+main .edits .service .right .meta {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+main .edits .service .right .meta div {
+  display: flex;
+  flex-direction: column;
+}
+main .edits .service .right .meta div p {
+  width: 100%;
+}
+main .edits .service .right .meta div h6 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  /* Text_Dark */
+  color: #391400;
+}
+main .edits .service .right .meta img {
+  width: 40px;
+  height: 40px;
+}
+main .edits .service .right button {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #ffffff;
+  width: 100px;
+  height: 34px;
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 @media screen and (max-width: 480px) {
   main {
@@ -464,7 +837,7 @@ main .experience .top div p {
   }
   main .modern_studio {
     flex-direction: column-reverse;
-    padding: 0 20px 0 20px;
+    padding: 0 40px;
   }
   main .modern_studio .right {
     width: 100%;
@@ -508,10 +881,14 @@ main .experience .top div p {
     width: 120px;
   }
   main .about {
-    padding: 60px 20px;
+    padding: 60px 40px;
     flex-direction: column;
+    gap: 40px;
   }
   main .about .left {
+    width: 100%;
+  }
+  main .about .left img {
     width: 100%;
   }
   main .about .right {
@@ -522,5 +899,82 @@ main .experience .top div p {
   }
   main .about .right p {
     width: 85%;
+  }
+  main .experience {
+    padding: 60px 40px;
+  }
+  main .experience .top {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  main .experience .top div {
+    width: 100%;
+  }
+  main .experience .top #start {
+    border-right: 1px solid #f3d1bf;
+    border-bottom: 0px;
+    border-radius: 6px 6px 0px 0px;
+  }
+  main .experience .top #end {
+    border-radius: 0px 0px 6px 6px;
+    border-left: 1px solid #f3d1bf;
+    border-top: 0px;
+  }
+  main .experience .bottom {
+    flex-direction: column;
+    gap: 60px;
+  }
+  main .experience .bottom .left {
+    width: 100%;
+  }
+  main .experience .bottom .left h3 {
+    width: 100%;
+  }
+  main .experience .bottom .left p {
+    width: 70%;
+  }
+  main .experience .bottom .right {
+    width: 100%;
+  }
+  main .experience .bottom .right ul {
+    gap: 30px;
+  }
+  main .edits {
+    padding: 60px 40px;
+  }
+  main .edits .video {
+    flex-direction: column;
+    gap: 60px;
+  }
+  main .edits .video .left {
+    width: 100%;
+  }
+  main .edits .video .left div {
+    width: 100%;
+  }
+  main .edits .video .right {
+    width: 100%;
+    align-items: flex-start;
+  }
+  main .edits .video .right h3 {
+    width: 90%;
+  }
+  main .edits .features {
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+  main .edits .features .left {
+    width: 100%;
+  }
+  main .edits .features .left h3 {
+    width: 70%;
+  }
+  main .edits .features .left p {
+    width: 90%;
+  }
+  main .edits .features .right {
+    width: 100%;
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
