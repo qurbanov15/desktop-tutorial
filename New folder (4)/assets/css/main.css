@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #28293E;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header_bg {
+  background-color: black;
+}
+
+.resp_header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.resp_header .resp {
+  top: 60px;
+  transition: 600ms;
+  z-index: 1;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.resp_header .resp li a {
+  color: aliceblue;
+  font-size: 40px;
+}
+.resp_header .responsive {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background-color: black;
+}
+
+nav ul li a {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 32px;
+  color: #f3f1f1;
+  text-align: center;
+}
+nav .contact {
+  font-family: "Epilogue", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 60px;
+}
+nav .contact {
+  border: 1px solid #6d6a6a;
+  border-radius: 6px;
+  width: 108px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .bar {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  nav {
+    width: 100%;
+  }
+  nav ul, nav .contact {
+    display: none;
+  }
+  nav .bar {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .bar i {
+    font-size: 30px;
+    color: aliceblue;
+  }
+}
+header {
+  width: 1300px;
+  padding: 16px 60px;
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    padding: 0 20px;
+    width: 100%;
+  }
+}
+main {
+  width: 1300px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 720px) {
+  main {
+    width: 100%;
+  }
+}
+#gabriel_pires {
+  width: 100%;
+  display: flex;
+  padding: 0 60px 0 60px;
+}
+#gabriel_pires .gabriel_pires_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+#gabriel_pires .gabriel_pires_left h3 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 48px;
+  /* or 120% */
+  /* Text_Dark */
+  color: #391400;
+  color: white;
+}
+#gabriel_pires .gabriel_pires_left h5 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Text_Dark_Accent */
+  color: #ef6d58;
+}
+#gabriel_pires .gabriel_pires_left p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  color: rgba(255, 255, 255, 0.64);
+}
+#gabriel_pires .gabriel_pires_left #star {
+  position: absolute;
+  right: 260px;
+  top: 70px;
+  width: 120px;
+  z-index: -1;
+}
+#gabriel_pires .gabriel_pires_left button {
+  background: #ef6d58;
+  border-radius: 6px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  color: white;
+  padding: 2px 15px;
+  border: 1px solid #EF6D58;
+  border-radius: 6px;
+}
+#gabriel_pires .gabriel_pires_right {
+  width: 50%;
+}
+#gabriel_pires .gabriel_pires_right img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  #gabriel_pires {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+  }
+  #gabriel_pires .gabriel_pires_right {
+    width: 100%;
+  }
+  #gabriel_pires .gabriel_pires_left {
+    width: 100%;
+  }
+}
+#service {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  padding: 0 100px;
+  background: #FDF0E9;
+}
+#service .service_top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#service .service_top h5 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Text_Dark_Accent */
+  color: #ef6d58;
+}
+#service .service_top h3 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 48px;
+  /* or 120% */
+  /* Text_Dark */
+  color: #391400;
+  width: 30%;
+}
+#service .service_bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#service .service_bottom :first-child {
+  border-right: 0px;
+}
+#service .service_bottom :nth-child(2) {
+  border-right: 0px;
+}
+#service .service_bottom > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #f3d1bf;
+  box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+  border-radius: 6px 6px 0px 6px;
+  padding: 50px 40px 40px 50px;
+}
+#service .service_bottom > div div {
+  width: 18%;
+  margin-bottom: 15px;
+  position: relative;
+}
+#service .service_bottom > div div #oval {
+  width: 100%;
+}
+#service .service_bottom > div div #shape {
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+#service .service_bottom > div h4 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  /* Text_Dark */
+  color: #391400;
+}
+#service .service_bottom > div p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 200% */
+  /* Text_Dark_Gray */
+  color: rgba(57, 20, 0, 0.64);
+  letter-spacing: 1px;
+}
+#service .service_bottom > div #more {
+  color: #000;
+}/*# sourceMappingURL=main.css.map */
