@@ -3,19 +3,21 @@
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    padding: 0 100px;
+    padding: 100px 100px;
     background: #FDF0E9;
 
     .service_top {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        align-items: center;
         h5 {
             @include h5;
         }
         h3 {
             @include h3;
-            width: 30%;
+            width: 55%;
+            
         }
     }
     .service_bottom {
@@ -26,7 +28,7 @@
             border-right: 0px;
         }
         :nth-child(2) {
-            border-right: 0px;
+           
         }
         > div {
             width: 50%;
@@ -40,7 +42,7 @@
 
             padding: 50px 40px 40px 50px;
             div {
-                width: 18%;
+                width: 34%;
 
                 margin-bottom: 15px;
                 position: relative;
@@ -64,6 +66,24 @@
             #more {
                 color: #000;
             }
+        }
+    }
+}
+@media screen and (max-width: 720px) {
+    #service{
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+        .service_bottom{
+            flex-direction: column;
+            >div{
+                width: 100%;
+            }
+            >:nth-child(1){
+                border-right: 1px solid #f3d1bf;
+                border-bottom: 0;
+            }
+            
         }
     }
 }
