@@ -22,14 +22,19 @@ background: #FDF0E9;
       position: relative;
 
         .rating_card{
+            transition: 600ms;
             border: 1px solid #F3D1BF;
             border-radius: 6px 0px 0px 6px;
             width: 33%;
             display: flex;
             flex-direction: column;
             gap: 40px;
+            height: 400px;
             padding: 40px 0 40px 40px;
-            
+        
+            >:nth-child(3){
+                transition: 600ms;
+            }
             >img{
                 width: 35%;
             }
@@ -37,6 +42,7 @@ background: #FDF0E9;
                 @include p;
                 width: 80%;
                 font-size: 18px;
+                
             }
             .meta {
                 div {
@@ -62,24 +68,28 @@ background: #FDF0E9;
             }
         }
         >:nth-child(1){
-            border-right: 0px;
-            height: 400px;
+            >:nth-child(3){
+                transform: translateY(40px);
+            }
         }
         >:nth-child(3){
-            border-left: 0px;
-            height: 400px;
-            gap: 60px;
+           
+            >:nth-child(3){
+                transform: translateY(40px);
+            }
         }
-        >:nth-child(2){
-            background-color: white;
-            position: relative;
-            top: 0px;
-            height: 450px;
-            gap: 60px;
-
-            
+        .testimonials_resp{
+          height: 450px;
+          background-color: #ffffff;
+          >:nth-child(3){
+            margin-top: 40px;
+          }
         }
+       
+   
     }
+   
+    
     >button{
         font-family: "Epilogue";
         font-style: normal;
