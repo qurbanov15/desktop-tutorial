@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/sass/main.css">
 </head>
 <body>
     <button class="start">Basla</button>
    <div class="suallar">
-
+    <h3>dogru cavablarin sayi:</h3>
+<h1></h1>
    </div>
     <form action="">
-        <div>
+    
+        <div class="sual">
         <label for="CompanyName">suali yaz:</label><br>
-        <input type="text" id="companyName" name="CompanyName" ><br>
+        <input type="text" id="companyName" name="CompanyName" >
         </div>
-        <div>
+        <div class="variant">
+        <div >
         <label for="contactName">A varianti:</label><br>
         <input type="text" id="contactName" name="contactName"><br><br>
         </div>
@@ -29,11 +32,21 @@
         <label for="country">C varianti:</label><br>
         <input type="text" id="country" name="country"><br><br>
         </div>
+        </div>
+        <div class="cavab">
+            <label for="cavab">cavab:</label><br>
+            <select id="cavab" name="cavab">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
       
         <button type="submit" id="#button">Sual elave et</button>
         
     </form>
-    <script src="./assets/js/js2.js"></script>
+    
+    
     <script src="./assets/js/script.js"></script>
 
 </body>

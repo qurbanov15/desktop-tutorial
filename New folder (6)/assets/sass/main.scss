@@ -6,27 +6,52 @@
 body{
     width: 100vw;
     display: flex;
+    justify-content: space-between;
     height: 100%;
-    align-items: center;
+
 
 }
 form{
-    width: 50%;
+    height: 100vh;
+    width: 40%;
     display: flex;
 position: relative;
-gap: 30px;
+gap: 50px;
+flex-direction: column;
+.cavab{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    select{
+        width: 20%;
+    }
+}
+.variant{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    div{
+        width: 30%;
+        input{
+            width: 100%;
+            height: 30px;
+            
+            border-radius: 5px;
+        }
+    }
+   
+}
 
-div{
-    width:  20%;
- display: flex;
- flex-direction: column;
- }
- input{
-     width: 100%;
-     height: 30px;
-     
-     border-radius: 5px;
- }
+.sual{
+    width: 100%;
+    >input{
+        width: 100%;
+        height: 30px;
+        
+        border-radius: 5px;
+    }
+}
+ 
  label{
      font-size: large;
      font-weight: 700;
@@ -38,7 +63,7 @@ div{
      background-color: chocolate;
      border-radius: 10px;
      border: 0;
-     top: 90%;
+     top: 50%;
      left: 40%;
      font-size: medium;
      font-weight: 600;
@@ -63,19 +88,35 @@ div{
 }
 .suallar{
    
-    width: 50%;
+    
     height: auto;
     border: 1px solid red;
     bottom: 0;
     
     width: 50%;
   
-    .variantlar{
+    >div{
         width: 100%;
-        display: flex !important;
-        justify-content: space-around;
-        
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        .variant2{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            
+            background-color: aqua;
+            display: grid;
+            place-items: center;
+        }
+        :nth-child(3){
+            margin-left: 60px;
+        }
+        :nth-child(5){
+            margin-left: 60px;
+        }
     }
 
 
 }
+
