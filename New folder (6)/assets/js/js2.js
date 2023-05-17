@@ -29,7 +29,7 @@ form.addEventListener("submit", function (event) {
    
   
    
-    fetch('http://localhost:3000/siyaset', {
+    fetch('http://localhost:3000/Quiz', {
     method: 'POST',
     headers: {
         'Accept': 'application/json',

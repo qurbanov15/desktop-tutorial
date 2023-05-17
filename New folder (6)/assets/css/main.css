@@ -7,22 +7,43 @@
 body {
   width: 100vw;
   display: flex;
+  justify-content: space-between;
   height: 100%;
-  align-items: center;
 }
 
 form {
-  width: 50%;
+  height: 100vh;
+  width: 40%;
   display: flex;
   position: relative;
-  gap: 30px;
-}
-form div {
-  width: 20%;
-  display: flex;
+  gap: 50px;
   flex-direction: column;
 }
-form input {
+form .cavab {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+form .cavab select {
+  width: 20%;
+}
+form .variant {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+form .variant div {
+  width: 30%;
+}
+form .variant div input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+form .sual {
+  width: 100%;
+}
+form .sual > input {
   width: 100%;
   height: 30px;
   border-radius: 5px;
@@ -38,7 +59,7 @@ form button {
   background-color: chocolate;
   border-radius: 10px;
   border: 0;
-  top: 90%;
+  top: 50%;
   left: 40%;
   font-size: medium;
   font-weight: 600;
@@ -60,14 +81,29 @@ form button {
 }
 
 .suallar {
-  width: 50%;
+  position: relative;
   height: auto;
   border: 1px solid red;
   bottom: 0;
   width: 50%;
 }
-.suallar .variantlar {
+.suallar > div {
   width: 100%;
-  display: flex !important;
-  justify-content: space-around;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.suallar > div .variant2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: aqua;
+  display: grid;
+  place-items: center;
+}
+.suallar > div :nth-child(3) {
+  margin-left: 60px;
+}
+.suallar > div :nth-child(5) {
+  margin-left: 60px;
 }/*# sourceMappingURL=main.css.map */

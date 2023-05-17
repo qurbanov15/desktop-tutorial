@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "Quiz": [
+    {
+      "id": 1,
+      "sual": "Grimes and Goodwin Associates",
+      "A": "Nerea Branch",
+      "B": "Minima est est animi",
+      "C": "Est dolores est ame",
+      "cavab": "C"
+    },
+    {
+      "id": 2,
+      "sual": "Dotson Vaughn Inc",
+      "A": "Hannah Sawyer",
+      "B": "Sit nemo architecto ",
+      "C": "Non Nam quis fuga A",
+      "cavab": "B"
+    },
+    {
+      "id": 3,
+      "sual": "Moon and Fleming Trading",
+      "A": "Aaron Sullivan",
+      "B": "Velit est error comm",
+      "C": "At quidem harum quod",
+      "cavab": "C"
+    }
+    
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -88,13 +88,13 @@ flex-direction: column;
 }
 .suallar{
    
-    
+    position: relative;
     height: auto;
     border: 1px solid red;
     bottom: 0;
     
     width: 50%;
-  
+ 
     >div{
         width: 100%;
         display: flex;

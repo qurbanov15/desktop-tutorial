@@ -49,28 +49,23 @@ form.addEventListener("submit",function () {
    .then(response => console.log(JSON.stringify(response)))
 
 
-   
+
 
 });
+let say=0
+let say1=0
 const basla=document.querySelector(".start")
 const suallar=document.querySelector(".suallar")
-basla.addEventListener("click",function () {
-    fetch("http://localhost:3000/Quiz")
-    .then(resp=> resp.json())
-    .then(data=>{
-        console.log(data);
-      
-        
-        data.forEach(elem => {
-         
-          suallar6(elem)
-        });
-       
-    })
-    
-})
-const h1=document.querySelector("h1")
+let boolean=true
+
+const h1=document.createElement("h1")
+h1.innerText="0"
+const h3 =document.createElement("h3")
+h3.innerText="dogru cavablarin sayi:"
 function suallar6 (data){
+
+  
+  
     const sual1=document.createElement("div")
     const variantlar1=document.createElement("div")
     variantlar1.className="variantlar1"
@@ -122,31 +117,81 @@ function suallar6 (data){
     place-items: center;
     `
     console.log(variant2);
-    const arr=[]
+    
+    let bool=""
+    
     for (let i = 0; i < variant2.length; i++) {
-       
+      if (variant2[i].innerText===data.cavab) {
+        
+      
         variant2[i].addEventListener("click",function () {
-             if(variant2[i].innerText===data.cavab){
+          say1++
+             
             variant2[i].style.backgroundColor="green"
               h1.innerText=+h1.innerText+1
-             }
-            if(variant2[i].style.backgroundColor!=="green"){
-              for (let k = 0; k < variant2.length; k++) {
-                if (variant2[k].innerText===data.cavab) {
-                  variant2[k].style.backgroundColor="green"
-                }
-                else{
-                variant2[k].style.backgroundColor="red"
-                }
-              }
-            }
+        
+          
     }
     )
-    
   }
  
+    else if(variant2[i].innerText!==data.cavab){
+      variant2[i].addEventListener("click",function () {
+        variant2[i].style.backgroundColor="red"
+        bool="false"
+        console.log(bool);
+        say++
+        console.log(say);
+      })
+     }
+     else if (bool==="false") {
+      for (let k = 0; k < variant2.length; k++) {
+        variant2[k].removeEventListener("click")
+        
+      }
+      
+    }       
+     console.log(bool);
+  
+   
+    
+  }
+  
 
 
 }
-arr = JSON.parse(sessionStorage.getItem("arr"));
-console.log(arr);
+let a=[]
+let b=0
+basla.addEventListener("click",function () {
+  suallar.innerHTML=""     
+  boolean=false
+  fetch("http://localhost:3000/Quiz")
+  .then(resp=> resp.json())
+  .then(data=>{
+      console.log(data.length);
+    a=data
+      
+      data.forEach(elem => {
+       
+        suallar6(elem)
+      });
+    
+   
+    
+if(say+say1>=a.length){
+ 
+       
+   
+  suallar.appendChild(h1)
+
+  
+
+}
+      
+      console.log(data.length);
+ 
+})
+})
+
+
+
