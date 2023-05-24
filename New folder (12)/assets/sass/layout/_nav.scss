@@ -1,0 +1,32 @@
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+.logo{
+    font-size: 50px;
+}
+.bars{
+    font-size: 30px;
+    background-color: aqua;
+    position: relative;
+    i{
+        position: absolute;
+
+    }
+    .fa-x{
+        display: none;
+    }
+    .fa-bars1{
+        display: none;
+    }
+    .fa-x1{
+        display: block;
+    }
+      
+    
+    
+}
+}

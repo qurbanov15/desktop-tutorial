@@ -1,0 +1,234 @@
+main {
+  width: 100%;
+  #villaResort {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    h1 {
+      font-size: 60px;
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 30px;
+      font-weight: 200;
+    }
+    .button {
+      :nth-child(1) {
+        font-size: large;
+        letter-spacing: 2px;
+        color: #fff;
+        
+        background-color: #ba154a;
+       border: 0;
+       border-radius: 25px;
+       padding: 15px 20px;
+      }
+      :nth-child(2) {
+        font-size: large;
+        letter-spacing: 2px;
+        color: #fff;
+        
+        background-color: transparent;
+       border: 1px solid white;
+       border-radius: 25px;
+       padding: 15px 25px;
+      }
+    }
+  }
+  #youCanVisit{
+    background: #e9ecef url(../img/round.png);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px 60px;
+    h5{
+        font-size: 25px;
+        color: #c0bebe;
+        font-weight: 200;
+    }
+    >div{
+        width: 100%;
+        display: flex;
+       
+       gap: 20px;
+        >div{
+          
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        width: 23%;
+        position: relative;
+        >:nth-child(1){
+            width: 100%;
+        }
+        >:nth-child(3){
+            width: 40%;
+        }
+        h4{
+            font-size: 140%;
+        }
+        p{
+            font-size: 60%;
+            color: rgb(113, 114, 116);
+            position: relative;
+            left: 50%;
+            bottom: 12%;
+        }
+        
+    }
+    }
+  }
+  #gorgeousPlace{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    h2{
+        font-size: 70px;
+        text-align: center;
+        width: 60%;
+    }
+    p{
+        font-size: x-large;
+        width: 60%;
+        text-align: center;
+        color: #4d4c4c;
+        font-weight: 300;
+    }
+  }
+  #recentBlogPost{
+    background: #e9ecef url(../img/round.png);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    padding: 100px;
+    align-items: center;
+  
+    h2{
+        font-size: 70px;
+        text-align: center;
+        width: 60%;
+    }
+    >p{
+        font-size: x-large;
+        width: 60%;
+        text-align: center;
+        color: #4d4c4c;
+        font-weight: 300;
+    }
+    >div{
+        display: flex;
+        width: 100%;
+        
+        gap: 20px;
+        >div{
+            display: flex;
+            flex-direction: column;
+            
+        
+        p{
+            font-size: medium;
+            margin-top: 10px;
+            color: #c0bebe;
+        }
+        h4{
+            font-size: x-large;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    }
+  }
+}
+@media screen and (max-width: 720px){
+    main{
+    #villaResort{
+       
+        h1 {
+          font-size: 40px;
+          color: white;
+        }
+        p {
+          color: white;
+          font-size: 20px;
+          font-weight: 200;
+        }
+        .button {
+          :nth-child(1) {
+            font-size: medium;
+            letter-spacing: 2px;
+            color: #fff;
+            
+            background-color: #ba154a;
+           border: 0;
+           border-radius: 25px;
+           padding: 15px 20px;
+          }
+          :nth-child(2) {
+            font-size: medium;
+            letter-spacing: 2px;
+            color: #fff;
+            
+            background-color: transparent;
+           border: 1px solid white;
+           border-radius: 25px;
+           padding: 15px 25px;
+          }
+        }
+    }
+    #youCanVisit{
+        padding: 100px 20px;
+        width: 100%;
+        >div{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+        }
+    } 
+    #gorgeousPlace{
+        padding: 0;
+        h2{
+            font-size: 50px;
+            text-align: center;
+            width: 60%;
+        }
+        p{
+            font-size: large;
+            width: 60%;
+            text-align: center;
+            color: #4d4c4c;
+            font-weight: 300;
+        }
+    }
+    #recentBlogPost{
+        padding: 0;
+        h2{
+            font-size: 50px;
+            text-align: center;
+            width: 60%;
+        }
+        p{
+            font-size: large;
+            width: 60%;
+            text-align: center;
+            color: #4d4c4c;
+            font-weight: 300;
+        }
+        >div{
+            flex-wrap: wrap;
+        }
+    }
+}
+}
