@@ -1,6 +1,10 @@
 const lorem=document.querySelectorAll(".lorem")
+<<<<<<< HEAD
 const arrow=document.querySelectorAll("h3")
 const about=document.querySelectorAll(".about")
+=======
+const arrow=document.querySelectorAll(".fa-caret-down")
+>>>>>>> 4dd5ede4202b52ba35dd106cbe2cc646d19a7b94
 
 for (let i = 0; i < lorem.length; i++) {
     
