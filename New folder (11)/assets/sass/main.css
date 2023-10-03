@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  width: 1370px;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav .container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+nav .container ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+nav .container ul > li {
+  transition: 800ms;
+}
+nav .container ul > li a {
+  text-decoration: none;
+  color: rgb(124, 125, 126);
+  font-size: large;
+  font-weight: 300;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+nav .container ul > li a i {
+  font-size: medium;
+}
+nav .container ul > li:hover a {
+  color: black;
+}
+nav .container ul > :nth-child(1) a {
+  color: #bc5148;
+}
+nav .container ul > :nth-child(2) {
+  position: relative;
+  transition: 400ms;
+  height: 40px;
+}
+nav .container ul > :nth-child(2) ul {
+  overflow: hidden;
+  top: 40px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 200px;
+  height: 0;
+}
+nav .container ul > :nth-child(2) ul li {
+  padding: 5px;
+  width: 100%;
+  color: black;
+}
+nav .container ul > :nth-child(2) ul li a {
+  font-weight: 400;
+  font-size: medium;
+  color: black;
+}
+nav .container ul > :nth-child(2) ul li:hover {
+  background-color: #bc5148;
+}
+nav .container ul > :nth-child(2):hover ul {
+  display: block;
+  height: auto;
+  padding: 15px 0;
+}
+nav .container ul > :nth-child(2):hover ul li {
+  padding: 10px 20px;
+}
+nav .container ul > :nth-child(2):hover ul li a {
+  color: rgb(8, 8, 8);
+}
+nav .container ul > :nth-child(2):hover ul li a:hover {
+  color: white;
+}
+
+header {
+  width: 100%;
+}
+header .contact {
+  width: 100%;
+  background: #bc5148;
+}
+header .contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .contact .container .contact_login {
+  display: flex;
+  align-items: center;
+}
+header .contact .container .contact_login :nth-child(1) {
+  padding: 10px;
+  font-size: small;
+  border: 0;
+  letter-spacing: 1px;
+  background: #bc5148;
+  transition: 500ms;
+}
+header .contact .container .contact_login :nth-child(2) {
+  background: #f4b214;
+  padding: 12px;
+  border: 0;
+  transition: 500ms;
+}
+header .contact .container .contact_login :nth-child(1):hover {
+  box-shadow: rgba(59, 59, 59, 0.07) 0px 1px 2px, rgba(49, 48, 48, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  color: white;
+}
+header .contact .container .contact_login :nth-child(2):hover {
+  color: white;
+}
+header .contact .container .contact_icon {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header .contact .container .contact_icon i {
+  font-size: 14px;
+  color: rgb(12, 12, 12);
+}
+
+main {
+  width: 100%;
+}
+main #adobtHerNow .parents {
+  top: 30%;
+  left: 8%;
+}
+main #adobtHerNow .parents :nth-child(1) {
+  font-family: "Sacramento", cursive;
+  color: white;
+  font-size: 45px;
+}
+main #adobtHerNow .parents > :nth-child(2) {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+main #adobtHerNow .parents > :nth-child(3) {
+  width: 50%;
+  font-size: larger;
+  font-weight: 400;
+  color: white;
+}
+main #adobtHerNow .parents > :nth-child(4) {
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #bc5148 !important;
+}
+main #adobtHerNow .parents1 {
+  top: 30%;
+  left: 8%;
+}
+main #adobtHerNow .parents1 :nth-child(1) {
+  font-family: "Sacramento", cursive;
+  font-size: 45px;
+}
+main #adobtHerNow .parents1 > :nth-child(2) {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(5, 5, 5);
+}
+main #adobtHerNow .parents1 > :nth-child(3) {
+  width: 50%;
+  font-size: larger;
+  font-weight: 400;
+  color: rgb(3, 3, 3);
+}
+main #adobtHerNow .parents1 > :nth-child(4) {
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #bc5148 !important;
+}
+main #stepToAdopt {
+  width: 100%;
+  display: flex;
+}
+main #stepToAdopt .stepToAdopt_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: auto;
+}
+main #stepToAdopt .stepToAdopt_left img {
+  width: 65%;
+}
+main #stepToAdopt .stepToAdopt_left p {
+  width: 70%;
+  font-size: larger;
+  font-weight: 400;
+  color: rgb(145, 143, 143);
+}
+main #stepToAdopt .stepToAdopt_left button {
+  width: 180px;
+  border: 2px solid #bc5148;
+  border-radius: 5px;
+  padding: 12px 5px;
+  font-size: large;
+  color: #bc5148;
+  background: white;
+  transition: 1s;
+}
+main #stepToAdopt .stepToAdopt_left button:hover {
+  background-color: #bc5148;
+  color: white;
+}
+main #stepToAdopt .stepToAdopt_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main #stepToAdopt .stepToAdopt_right h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+main #stepToAdopt .stepToAdopt_right > div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main #stepToAdopt .stepToAdopt_right > div > div {
+  width: 100%;
+  border: 1px solid rgb(209, 206, 206);
+  border-radius: 5px;
+}
+main #stepToAdopt .stepToAdopt_right > div > div h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 10px 0 10px;
+}
+main #stepToAdopt .stepToAdopt_right > div > div p {
+  height: 0;
+  overflow: hidden;
+  transition: 1s;
+}
+main #stepToAdopt .stepToAdopt_right > div > div .about_open {
+  height: 130px;
+  padding: 10px 10px;
+}
+main #waitingChildiren {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+main #waitingChildiren h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+main #waitingChildiren p {
+  width: 60%;
+  font-size: 23px;
+  font-weight: 300;
+}
+main #waitingChildiren button {
+  border: 0;
+  padding: 13px 10px;
+  color: white;
+  background-color: #bc5148;
+  border-radius: 5px;
+  font-size: larger;
+}/*# sourceMappingURL=main.css.map */

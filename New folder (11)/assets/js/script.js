@@ -1,15 +1,28 @@
 const lorem=document.querySelectorAll(".lorem")
-const arrow=document.querySelectorAll(".fa-caret-down")
-function add_p(lorem) {
-    const p=document.createElement("p")
-    p.innerText=`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid velit, asperiores libero.
-    Beatae vitae nostrum et distinctio saepe autem quisquam cupiditate labore voluptatum,
-    eligendi ipsam atque assumenda odit, perferendis dicta.`
-lorem.appendChild(p)
-}
+const arrow=document.querySelectorAll("h3")
+const about=document.querySelectorAll(".about")
+
 for (let i = 0; i < lorem.length; i++) {
-    arrow[i+1].addEventListener("click",function () {
-       add_p(lorem[i])
-    })
     
+        arrow[i].addEventListener("click",function () {
+            
+            for (let k = 0; k < about.length; k++) {
+           if (i!==k) {
+            
+           
+                    about[k].classList.remove("about_open")
+                
+            
+        }    
+        about[i].classList.toggle("about_open")
+    }
+        
+               
+                
+
+    })
 }
+    
+ 
+
+    
